@@ -1,0 +1,809 @@
+body {
+    background: #FAFAF7;
+}
+
+main {
+    height: 30%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main .about-logo {
+    background-color: #3286C3;
+    height: 343px;
+    width: 100%;
+    display: flex;
+    max-height: 1093px;
+    justify-content: center;
+}
+
+main .about-logo-container {
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+main .about-logo .about-logo-container h1 {
+    color: #FFFF;
+    line-height: 49px;
+    font-size: 48px;
+    width: 607px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+main .about-logo .about-logo-container p {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+
+    max-width: 238px;
+}
+
+main .about-logo .about-logo-container a {
+    box-sizing: border-box;
+    color: #FFF;
+    width: 182px;
+    height: 158px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    background-color: #2E7BB2;
+    border-radius: 8px;
+    padding: 28px 48px;
+    font-size: 16px;
+    font-family: 'PT-Sans';
+    text-align: center;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 1px;
+
+    text-decoration: none;
+}
+
+
+main .valores-empresa {
+    max-width: 1240px;
+    display: flex;
+    margin: -115px auto 100px ;
+}
+
+main .valores-empresa .card-wrapper {
+    width: 415px;
+    height: 404px;
+
+}
+
+main .valores-empresa .card-wrapper img {
+    width: 100%;
+    height: 70%;
+}
+
+main .valores-empresa .card-wrapper .card-info{
+    background: #FFFF;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .valores-empresa .card-wrapper .card-info span {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 100%;
+
+    background: #143866;
+    color: #FFFF;
+    margin: -30px 18px 0;
+}
+
+main .valores-empresa .card-wrapper .card-info span img {
+    width: 50px;
+    height: 50px;
+}
+
+main .valores-empresa .card-wrapper .card-info p {
+    display: flex;
+    flex: 1;
+    max-width: 225px;
+
+    font-family: "PT Sans";
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #6A6a57;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25px;
+}
+
+main .sport-container {
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto 100px;
+}
+
+main .sport-container .sport-card-info{
+    box-sizing: border-box;
+    background: #FFF;
+    padding: 56px 0 30px 36px;
+    width: 60%;
+}
+
+main .sport-container .sport-card-info h2 {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+    color: #FF5e0f;
+    font-family: sans-serif;
+    margin-bottom: 57px;
+
+    max-width: 322px;
+}
+
+main .sport-container .sport-card-info p {
+    max-width: 422px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    font-family: 'PT Sans';
+    margin-bottom: 26px;
+    
+}
+
+main .sport-container .sport-card-info button {
+    width: 150px;
+    height: 49px;
+    color: #FFF;
+    background: #FF5e0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: none;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    margin-top: 16px;
+}
+
+
+main .sport-container .sport-card-video{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    position: relative;
+
+    margin-left: -10%;
+}
+
+main .sport-container .sport-card-video button {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 100%;
+
+    color: #FFF;
+    background: #FF5e0f;
+    box-shadow: 0px 22px 80px rgba(29, 27, 24, 0.07), 0px 22.2437px 55.4997px rgba(29, 27, 24, 0.0771599), 0px 23.2607px 48.4373px rgba(29, 27, 24, 0.0756864), 0px 24.6609px 44.6163px rgba(29, 27, 24, 0.0644444), 0px 25.9607px 41.3692px rgba(29, 27, 24, 0.0443511), 0px 26.3799px 36.8572px rgba(29, 27, 24, 0.0210201), 0px 24.0804px 28.1652px rgba(29, 27, 24, 0.00397918);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-left: -50px;
+}
+
+main .sou-mais-fibra {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto 100px;
+    display: flex;
+}
+
+main .sou-mais-fibra img {
+    width: 60%;
+    max-height: 663px;
+    transform: scale(1.3)
+}
+
+main .sou-mais-fibra .sou-mais-wrapper {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+main .sou-mais-fibra .sou-mais-wrapper h2 {
+    max-width: 450px;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+
+    color: #FFBF3F;
+    margin-bottom: 21px;
+}
+
+main .sou-mais-fibra .sou-mais-wrapper p {
+    font-family: "PT Sans";
+    font-size: 16px;
+    line-height: 26px;
+
+    letter-spacing: 0.03em;
+
+    color: #6A6A57;
+
+    margin-bottom: 35px;
+}
+
+main .sou-mais-fibra .sou-mais-wrapper button {
+    border: none;
+    border-radius: 40px;
+    
+    width: 200px;
+    height: 49px;
+
+    background: #FFBF3F;
+    color: #fff;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+}
+
+main .its-your-turn {
+    width: 100%;
+    height: 546px;
+    display: flex;
+    margin: 0 0 100px 17.5%;
+    align-items: center;
+}
+
+main .its-your-turn .its-your-turn-content {
+    background: #4698CA;
+    width: 35%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 58px;
+    justify-content: center;
+}
+
+main .its-your-turn .its-your-turn-content h6 {
+    font-weight: bold;
+    font-size: 38px;
+    font-family: sans-serif;
+    line-height: 45px;
+
+    max-width: 350px;
+    color: #FFBF3F;
+}
+
+main .its-your-turn .its-your-turn-content p{
+    font-family: 'PT Sans';
+    font-size: 16px;
+    line-height: 26px;
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    max-width: 394px;
+    margin-top: 20px;
+}
+
+main .its-your-turn .its-your-turn-content a {
+    width: 176px;
+    height: 50px;
+
+    margin-top: 31px;
+
+    background: #FFBF3F;
+    color: #FFF;
+
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 17px;
+
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+main .its-your-turn .its-your-turn-content a span {
+    display: none;
+}
+
+main .its-your-turn .its-your-turn-content a:hover span {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .its-your-turn .its-your-wrapper {
+    width: 70%;
+    overflow: hidden;
+    height: 90%;
+    margin-left: -144px;
+    position: relative;
+}
+
+main .its-your-turn .its-your-wrapper .up-card {
+    position: absolute;
+    top: 0;
+    left: 30vw;
+    width: 425px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 40px;
+    box-sizing: border-box;
+    background: linear-gradient(270deg, #FAFAF8 6.82%, rgba(255, 255, 255, 0) 100%);
+}
+
+main .its-your-turn .its-your-wrapper .up-card  button, main .its-your-turn .its-your-wrapper .down-card  button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 24px;
+    background-color: #FF5e0f
+}
+
+main .its-your-turn .its-your-wrapper .down-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+main .its-your-turn .its-your-turn-cards {
+    height: 110%;
+    display: flex;
+    align-items: center;
+    
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+
+main .its-your-turn .its-your-turn-cards .its-your-card {
+    width: 288px;
+    height: 421px;
+    background: #FFFF;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    flex: none;
+
+
+    pointer-events: none;
+}
+
+main .its-your-turn .its-your-turn-cards .its-your-card img {
+    height: 40%;
+    width: 100%;
+}
+
+main .its-your-turn .its-your-turn-cards .its-your-card .its-your-info {
+    height: 60%;
+    width: 100;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 19px;
+    box-sizing: border-box;
+}
+
+main .its-your-turn .its-your-turn-cards .its-your-card .its-your-info h6 {
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #4698CA;
+
+    margin-bottom: 15px;
+}
+
+main .its-your-turn .its-your-turn-cards .its-your-card .its-your-info p {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+
+    color: #6A6A57;
+
+    margin-bottom: 15px;
+}
+
+main .its-your-turn .its-your-turn-cards .its-your-card .its-your-info a {
+    width: 135px;
+    height: 35px;
+
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+
+    letter-spacing: 0.03em;
+
+    color: #4F4F40;
+
+}
+
+main .whats-be-god-more-happy {
+    display: flex;
+    margin: 0 auto 100px;
+    height: 321px;
+    position: relative;
+}
+
+main .whats-be-god-more-happy::after{
+    content: '';
+    position: absolute;
+
+    top: 0;
+    left: 9%;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+    background: url('../images/backgroundPostInst.png') no-repeat;
+}
+
+main .whats-be-god-more-happy .more-happy-instagram {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 75px;
+    width: 450px;
+}
+
+main .whats-be-god-more-happy .more-happy-instagram span {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 27px;
+    position: relative;
+}
+
+main .whats-be-god-more-happy .more-happy-instagram span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../images/icon-instagram.svg');
+    width: 100%;
+    height: 100%;
+}
+
+main .whats-be-god-more-happy .more-happy-instagram h2 {
+    font-weight: bold;
+    font-size: 38px;
+    font-family: sans-serif;
+    line-height: 45px;
+
+    max-width: 393px;
+
+    color: #606395;
+}
+
+main .whats-be-god-more-happy .more-happy-instagram strong {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+    margin-top: 14px;
+
+    color: #E31C79;
+}
+
+main .whats-be-god-more-happy .cards-more-happy {
+    display: flex;
+    overflow: hidden;
+}
+
+main .whats-be-god-more-happy .cards-more-happy img {
+    width: 288px;
+    height: 288px;
+    flex: 0;
+}
+
+main .whats-be-god-more-happy .cards-more-happy img + img {
+    margin-left: 30px;
+}
+
+main .logo-sports {
+    max-width: 1240px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 100px;
+    align-items: center;
+}
+
+main .logo-sports h2 {
+    max-width: 394px;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: sans-serif;
+    line-height: 45px;
+    text-align: center;
+
+    color: #78BE21;
+    margin-bottom: 15px;
+}
+
+main .logo-sports p {
+    max-width: 700px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'PT Sans';
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #6A6A57;
+
+    margin-bottom: 20px;
+}
+
+main .logo-sports .group-buttom {
+    max-width: 571px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+main .logo-sports .group-buttom button {
+
+    width: 164px;
+    height: 34px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: none;
+    border: 1px solid #78BE21;
+    border-radius: 20px;
+
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 17px;
+
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #78BE21;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+main .logo-sports .group-buttom button span {
+    width: 24px;
+    height: 24px;
+
+    position: relative;
+    display: flex;
+    margin-right: 10px;
+}
+
+main .logo-sports .group-buttom button span::after {
+    content: '';
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    
+}
+
+main .logo-sports .group-buttom button:nth-child(1) span::after {
+    background: url('../images/atleta-icon.svg');
+}
+
+
+main .logo-sports .group-buttom button:nth-child(2) span::after {
+    background: url('../images/group-icon.svg') no-repeat center;
+}
+
+main .logo-sports .group-buttom button:nth-child(3) span::after {
+    background: url('../images/parceiros-icom.svg');
+}
+
+main .logo-sports .carrosel-sports-logo {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+main .logo-sports .carrosel-sports-logo button {
+    width: 50px;
+    height: 50px;
+    background: #78BE21;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 100%;
+}
+
+main .logo-sports .carrosel-sports-logo button.card-down {
+    position: absolute;
+    top: 30%;
+    left: -25px;
+}
+
+main .logo-sports .carrosel-sports-logo button.card-up {
+    position: absolute;
+    top: 30%;
+    right: -25px;
+}
+
+
+main .logo-sports .carrosel-sports-logo .sport-logo-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+main .logo-sports .carrosel-sports-logo .sport-logo-wrapper .sport-logo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .logo-sports .carrosel-sports-logo .sport-logo-wrapper .sport-logo-card img {
+    width: 288px;
+    height: 288px;
+}
+
+main .logo-sports .carrosel-sports-logo .sport-logo-wrapper .sport-logo-card h6 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+
+    text-align: center;
+
+    color: #78BE21;
+    margin: 10px 0;
+}
+
+main .logo-sports .carrosel-sports-logo .sport-logo-wrapper .sport-logo-card strong {
+    font-size: 14px;
+    font-family: 'PT Sans';
+    line-height: 22px;
+    text-align: center;
+
+    letter-spacing: 0.03em;
+
+    color: #6A6A57;
+}
+
+main .be-partner {
+    background-color:#F2F2EE ;
+}
+
+main .be-partner .be-partner-container {
+    max-width: 1240px;
+    width: 100%;
+    height: 520px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+main .be-partner .be-partner-container .be-partner-description {
+    width: 50%;
+
+}
+main .be-partner .be-partner-container .be-partner-description h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 38px;
+    line-height: 45px;
+
+    color: #FA4616;
+
+    margin-bottom: 13px;
+}
+
+main .be-partner .be-partner-container .be-partner-description p {
+    max-width: 400px;
+
+    font-family: 'PT Sans';
+    font-size: 16px;
+    line-height: 26px;
+
+    letter-spacing: 0.03em;
+
+    color: #6A6A57;
+
+    margin-bottom: 35px;
+}
+
+main .be-partner .be-partner-container .be-partner-description a {
+    width: 208px;
+    height: 49px;
+
+    background: #FFFF;
+    border-radius: 40px;
+
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #FF7F41;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+}
+
